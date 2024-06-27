@@ -4,9 +4,9 @@ let questionsAmount = 0
 let cTime = 60
 let question
 let answer
-let correct = new Audio('/web/hitTheButtonRemake/cor.mp3')
-let incorrect = new Audio('/web/hitTheButtonRemake/incor.mp3')
-let finish = new Audio('/web/hitTheButtonRemake/end.mp3')
+let correct = new Audio('hitTheButtonRemake/cor.mp3')
+let incorrect = new Audio('hitTheButtonRemake/incor.mp3')
+let finish = new Audio('hitTheButtonRemake/end.mp3')
 
 function timesTable(number) {
     let lastQuestion = 'h'
