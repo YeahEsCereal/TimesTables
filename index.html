@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/web/favicon.ico" />
+    <title>Multiply Desk</title>
+  </head>
+  <body>
+    <div class="selectTable">
+      <h1>Select a times table</h1>
+      <div class="buttons">
+        <button onclick="timesTable(1)">1 times table</button>
+        <button onclick="timesTable(2)">2 times table</button>
+        <button onclick="timesTable(3)">3 times table</button>
+        <button onclick="timesTable(4)">4 times table</button>
+        <button onclick="timesTable(5)">5 times table</button>
+        <button onclick="timesTable(6)">6 times tables</button>
+        <button onclick="timesTable(7)">7 times tables</button>
+        <button onclick="timesTable(8)">8 times tables</button>
+        <button onclick="timesTable(9)">9 times tables</button>
+        <button onclick="timesTable(10)">10 times tables</button>
+        <button onclick="timesTable(11)">11 times table</button>
+        <button onclick="timesTable(12)">12 times table</button>
+        <button id="mixed" onclick="timesTable('mixed')">
+          Mixed times tables
+        </button>
+      </div>
+    </div>
+    <div class="game">
+      <p id="time">Time: 1:00</p>
+      <p id="score">Score: 0/0</p>
+      <h1 id="question">1x1=?</h1>
+      <div class="buttons">
+        <button id="btn1" class="btn">a</button>
+        <button id="btn1" class="btn">a</button>
+        <button id="btn1" class="btn">a</button>
+        <button id="btn1" class="btn">a</button>
+        <button id="btn2" class="btn">a</button>
+        <button id="btn2" class="btn">a</button>
+        <button id="btn2" class="btn">a</button>
+        <button id="btn2" class="btn">a</button>
+        <button id="btn3" class="btn">a</button>
+        <button id="btn3" class="btn">a</button>
+        <button id="btn3" class="btn">a</button>
+        <button id="btn3" class="btn">a</button>
+      </div>
+    </div>
+    <div class="results">
+      <div>
+        <h1>Results</h1>
+        <p id="result">Score: 0/0</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
